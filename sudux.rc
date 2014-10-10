@@ -1,0 +1,289 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (中国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\sudux.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""l.chs\\afxres.rc""          // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\sudux.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG DISCARDABLE  0, 0, 235, 55
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "关于 sudux"
+FONT 9, "宋体"
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,11,17,20,20
+    LTEXT           "sudux 1.0 版",IDC_STATIC,40,10,119,8,SS_NOPREFIX
+    LTEXT           "版权所有 (C) 2011",IDC_STATIC,40,25,119,8
+    DEFPUSHBUTTON   "确定",IDOK,178,7,50,14,WS_GROUP
+END
+
+IDD_SUDUX_DIALOG DIALOGEX 0, 0, 296, 200
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "sudux"
+FONT 9, "宋体"
+BEGIN
+    EDITTEXT        IDC_EDIT2,14,8,20,14,ES_CENTER | ES_AUTOHSCROLL | 
+                    ES_NUMBER
+    EDITTEXT        IDC_EDIT3,38,8,20,14,ES_CENTER | ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT4,60,8,20,14,ES_CENTER | ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT5,92,7,20,14,ES_CENTER | ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT6,116,7,20,14,ES_CENTER | ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT7,138,7,20,14,ES_CENTER | ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT8,170,8,20,14,ES_CENTER | ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT9,194,8,20,14,ES_CENTER | ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT10,217,8,20,14,ES_CENTER | ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT11,14,27,20,14,ES_CENTER | ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT12,38,27,20,14,ES_CENTER | ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT13,60,27,20,14,ES_CENTER | ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT14,92,26,20,14,ES_CENTER | ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT15,116,26,20,14,ES_CENTER | ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT16,138,26,20,14,ES_CENTER | ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT17,170,27,20,14,ES_CENTER | ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT18,194,27,20,14,ES_CENTER | ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT19,217,27,20,14,ES_CENTER | ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT20,14,46,20,14,ES_CENTER | ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT21,38,46,20,14,ES_CENTER | ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT22,60,46,20,14,ES_CENTER | ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT23,92,45,20,14,ES_CENTER | ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT24,116,45,20,14,ES_CENTER | ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT25,138,45,20,14,ES_CENTER | ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT26,170,46,20,14,ES_CENTER | ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT27,194,46,20,14,ES_CENTER | ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT28,217,46,20,14,ES_CENTER | ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT29,13,71,20,14,ES_CENTER | ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT30,37,71,20,14,ES_CENTER | ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT31,60,71,20,14,ES_CENTER | ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT32,91,70,20,14,ES_CENTER | ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT33,115,70,20,14,ES_CENTER | ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT34,138,70,20,14,ES_CENTER | ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT35,169,71,20,14,ES_CENTER | ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT36,193,71,20,14,ES_CENTER | ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT37,217,71,20,14,ES_CENTER | ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT38,13,90,20,14,ES_CENTER | ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT39,37,90,20,14,ES_CENTER | ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT40,60,90,20,14,ES_CENTER | ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT41,91,89,20,14,ES_CENTER | ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT42,115,89,20,14,ES_CENTER | ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT43,138,89,20,14,ES_CENTER | ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT44,169,90,20,14,ES_CENTER | ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT45,193,90,20,14,ES_CENTER | ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT46,217,90,20,14,ES_CENTER | ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT47,13,109,20,14,ES_CENTER | ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT48,37,109,20,14,ES_CENTER | ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT49,60,109,20,14,ES_CENTER | ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT50,91,108,20,14,ES_CENTER | ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT51,115,108,20,14,ES_CENTER | ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT52,138,108,20,14,ES_CENTER | ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT53,169,109,20,14,ES_CENTER | ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT54,193,109,20,14,ES_CENTER | ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT55,217,109,20,14,ES_CENTER | ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT56,13,135,20,14,ES_CENTER | ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT57,37,135,20,14,ES_CENTER | ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT58,60,135,20,14,ES_CENTER | ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT59,91,134,20,14,ES_CENTER | ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT60,115,134,20,14,ES_CENTER | ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT61,138,134,20,14,ES_CENTER | ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT62,169,135,20,14,ES_CENTER | ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT63,193,135,20,14,ES_CENTER | ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT64,217,135,20,14,ES_CENTER | ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT65,13,154,20,14,ES_CENTER | ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT66,37,154,20,14,ES_CENTER | ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT67,60,154,20,14,ES_CENTER | ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT68,91,153,20,14,ES_CENTER | ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT69,115,153,20,14,ES_CENTER | ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT70,138,153,20,14,ES_CENTER | ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT71,169,154,20,14,ES_CENTER | ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT72,193,154,20,14,ES_CENTER | ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT73,217,154,20,14,ES_CENTER | ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT74,13,173,20,14,ES_CENTER | ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT75,37,173,20,14,ES_CENTER | ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT76,60,173,20,14,ES_CENTER | ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT77,91,172,20,14,ES_CENTER | ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT78,115,172,20,14,ES_CENTER | ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT79,138,172,20,14,ES_CENTER | ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT80,169,173,20,14,ES_CENTER | ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT81,193,173,20,14,ES_CENTER | ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT82,217,173,20,14,ES_CENTER | ES_AUTOHSCROLL
+    LTEXT           "请在左表中          填入原始数        据，空位处          填入0.",
+                    IDC_STATIC,241,28,41,82,SS_NOTIFY
+    PUSHBUTTON      "开始计算",IDC_BUTTON1,241,122,40,18
+    PUSHBUTTON      "重置",IDC_BUTTON2,241,143,40,18
+    PUSHBUTTON      "退出",IDC_BUTTON3,241,167,40,18
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080404B0"
+        BEGIN
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "sudux Microsoft 基础类应用程序\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "sudux\0"
+            VALUE "LegalCopyright", "版权所有 (C) 2011\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "sudux.EXE\0"
+            VALUE "ProductName", "sudux 应用程序\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 228
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 48
+    END
+
+    IDD_SUDUX_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 289
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 193
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_ABOUTBOX            "关于 sudux(&A)..."
+END
+
+#endif    // Chinese (中国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE 4, 2
+#pragma code_page(936)
+#endif //_WIN32
+#include "res\sudux.rc2"  // non-Microsoft Visual C++ edited resources
+#include "l.chs\afxres.rc"          // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
